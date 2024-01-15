@@ -1,0 +1,120 @@
+{
+    "title": "Navigation Menu",
+    "data": [{
+            "title": "Basic Locations",
+            "content": [{
+                    "type": "button",
+                    "value": "All",
+                    "url": "/basic_locations/all"
+                },
+                {
+                    "type": "button",
+                    "value": "Buildings",
+                    "url": "/basic_locations/buildings"
+                },
+                {
+                    "type": "button",
+                    "value": "Ground",
+                    "url": "/basic_locations/ground"
+                },
+                {
+                    "type": "button",
+                    "value": "Parking",
+                    "url": "/basic_locations/parking"
+                },
+                {
+                    "type": "button",
+                    "value": "Entrances",
+                    "url": "/basic_locations/entrances"
+                }
+            ]
+        },
+        {
+            "title": "Departments",
+            "content": [{
+                    "type": "button",
+                    "value": "All",
+                    "url": "/departments/all"
+                },
+                {
+                    "type": "button",
+                    "value": "Fee",
+                    "url": "/departments/fee"
+                },
+                {
+                    "type": "button",
+                    "value": "Books",
+                    "url": "/departments/books"
+                },
+                {
+                    "type": "button",
+                    "value": "Examination",
+                    "url": "/departments/examination"
+                },
+                {
+                    "type": "button",
+                    "value": "Sports",
+                    "url": "/departments/sports"
+                },
+                {
+                    "type": "button",
+                    "value": "Placement",
+                    "url": "/departments/placement"
+                }
+            ]
+        },
+        {
+            "title": "Labs",
+            "content": [{
+                    "type": "button",
+                    "value": "All",
+                    "url": "/labs/all"
+                },
+                {
+                    "type": "button",
+                    "value": "Computer",
+                    "url": "/labs/computer"
+                },
+                {
+                    "type": "button",
+                    "value": "Electrical",
+                    "url": "/labs/electrical"
+                },
+                {
+                    "type": "button",
+                    "value": "Electronics",
+                    "url": "/labs/electronics"
+                },
+                {
+                    "type": "button",
+                    "value": "Mechanical",
+                    "url": "/labs/mechanical"
+                }
+            ]
+        },
+        {
+            "title": "Miscellaneous",
+            "content": [{
+                    "type": "button",
+                    "value": "All",
+                    "url": "/miscellaneous/all"
+                },
+                {
+                    "type": "button",
+                    "value": "Canteen",
+                    "url": "/miscellaneous/canteen"
+                },
+                {
+                    "type": "button",
+                    "value": "Gym",
+                    "url": "/miscellaneous/gym"
+                },
+                {
+                    "type": "button",
+                    "value": "Water",
+                    "url": "/miscellaneous/water"
+                }
+            ]
+        }
+    ]
+}
