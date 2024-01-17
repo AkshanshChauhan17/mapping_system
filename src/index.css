@@ -82,13 +82,20 @@ button:hover {
     transition-duration: 0.3s;
 }
 
+.itg-map:hover {
+    cursor: grab;
+}
+
+.grabbing {
+    cursor: grabbing;
+}
+
 .map-layer {
     padding: 0px;
 }
 
 .first-layer{
     object-fit: cover;
-    transform: rotateZ(90deg) translateX(102%);
     transition-duration: 0.3s;
 }
 
