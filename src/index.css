@@ -80,9 +80,6 @@ button:hover {
     align-items: center;
     justify-content: center;
     transition-duration: 0.3s;
-}
-
-.itg-map:hover {
     cursor: grab;
 }
 
@@ -90,8 +87,9 @@ button:hover {
     cursor: grabbing;
 }
 
-.map-layer {
-    padding: 0px;
+.layer {
+    width: 1000px;
+    height: 1000px;
 }
 
 .first-layer{

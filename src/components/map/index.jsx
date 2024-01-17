@@ -1,14 +1,14 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import map_layer from "../../assets/map/main_map_layer.png"
 
 export default function ITGMap() {
     const [zoomIn, setZoomIn] = useState(10)
-    const [xPos, setXPos] = useState(0)
-    const [yPos, setYPos] = useState(0)
+    const [xPos, setXPos] = useState(500)
+    const [yPos, setYPos] = useState(500)
     const [grab, setGrab] = useState(false)
     return (
-        <div className={grab ? "itg-map grabbing" : "itg-map"} draggable={false} onDrag={(e)=>{console.log(e.clientX, e.clientY)}} onDragStart={()=>setGrab(true)} onDragEnd={()=>setGrab(false)}>
-            <img className={grab ? "first-layer grabbing" : "first-layer"} draggable={false} loading="lazy" style={{transform: "translateX(" + xPos + "%) translateY(" + yPos + "%) rotateZ(90deg) scaleX(" + zoomIn + "%) scaleY(" + zoomIn + "%)"}} src={map_layer}/>
+        <div className={grab ? "itg-map grabbing" : "itg-map"} onClick={()=>grab ? setGrab(false) : setGrab(true)} onMouseMove={(e)=>{grab ? [setXPos(e.clientX), setYPos(e.clientY)] : null}}>
+            <div className="layer" draggable={false} style={{backgroundImage: "url(" + map_layer + ")", backgroundPositionX: xPos + "px", backgroundPositionY: yPos + "px"}}></div>
         </div>
     )
 }
