@@ -71,8 +71,8 @@ button:hover {
 }
 
 .itg-map {
-    width: 100%;
     height: 100vh;
+    width: 1000px;
     background-color: cadetblue;
     padding: 0px;
     overflow: hidden;
@@ -81,6 +81,8 @@ button:hover {
     justify-content: center;
     transition-duration: 0.3s;
     cursor: grab;
+    overflow: scroll;
+    position: relative;
 }
 
 .grabbing {
@@ -88,8 +90,9 @@ button:hover {
 }
 
 .layer {
-    width: 1000px;
-    height: 1000px;
+    object-fit: cover;
+    transition-duration: 0.3s;
+    position: absolute;
 }
 
 .first-layer{
@@ -103,6 +106,12 @@ button:hover {
     display: grid;
     grid-template-columns: 100px 200px;
     gap: 10px;
+}
+
+.box {
+    padding: 20px;
+    color: red;
+    position: fixed;
 }
 
 .zoom {
