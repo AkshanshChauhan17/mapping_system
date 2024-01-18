@@ -1,23 +1,22 @@
 import { useEffect, useState } from "react"
 import map_layer from "../../assets/map/main_map_layer.png"
 
-export default function ITGMap() {
-    const [zoomIn, setZoomIn] = useState(1000)
-    const [xPos, setXPos] = useState(0)
-    const [yPos, setYPos] = useState(0)
-    const [location, setLocation] = useState([])
-    const [grab, setGrab] = useState(false)
-    console.log(location)
+export default function ITGMap({coords}){
     return (
-        <div className={grab ? "itg-map grabbing" : "itg-map"} onClick={(e)=>{setXPos(e.clientX); setYPos(e.clientY); setLocation(...location.push({xPos, yPos}))}} onDoubleClick={()=>zoomIn === 3000 ? setZoomIn(1000) : setZoomIn(zoomIn + 1000)}>
-            <img src={map_layer} className="layer" draggable={false} width={zoomIn} height={zoomIn}></img>
-            <div className="layer">
+        <div className="itg-map">
+            <img className="layer-bg" src={map_layer} alt="itg_map_layer_default" />
+            <svg className="first-layer" xmlns="http://www.w3.org/2000/svg" width="1000px" height="1000px">
                 {
-                    location.map((ele, i)=>{
-                        return <div className="box" style={{top: ele.xPos + "px", left: ele.yPos + "px"}} title={"location " + i}>{ele.xPos + " " + ele.yPos}</div>
+                    coords.locations.map((e, i)=>{
+                        return (
+                            <g className="location-group">
+                                <circle cx={e.x + "px"} cy={e.y + "px"} r="10px" fill="red" />
+                                <text x={e.x + 20 + "px"} y={e.y + 1 + "px"} dominant-baseline="middle" text-anchor="middle" font-size="16" fill="white" style={{fontWeight: 600}}>{coords.index_of}</text>
+                            </g>
+                        )
                     })
                 }
-            </div>
+            </svg>
         </div>
     )
 }

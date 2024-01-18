@@ -5,7 +5,14 @@
             "content": [{
                     "type": "button",
                     "value": "All",
-                    "url": "/basic_locations/all"
+                    "url": "/basic_locations/all",
+                    "locations": [{
+                        "x": 100,
+                        "y": 200,
+                        "title": "Building 1",
+                        "description": "This is Building 1 having following branches\n1.Civil Engineering\n2.Electrical Engineering\netc.",
+                        "image_src": "null"
+                    }]
                 },
                 {
                     "type": "button",

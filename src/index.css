@@ -85,19 +85,29 @@ button:hover {
     position: relative;
 }
 
+.itg-map::-webkit-scrollbar {
+    display: none;
+}
+
 .grabbing {
     cursor: grabbing;
 }
 
-.layer {
-    object-fit: cover;
+.layer-bg {
+    top: 0px;
+    left: 0px;
     transition-duration: 0.3s;
     position: absolute;
+    z-index: 1;
+    rotate: 90deg;
 }
 
-.first-layer{
-    object-fit: cover;
+.first-layer {
+    top: 0px;
+    left: 0px;
     transition-duration: 0.3s;
+    position: absolute;
+    z-index: 10;
 }
 
 .controls {
@@ -106,12 +116,6 @@ button:hover {
     display: grid;
     grid-template-columns: 100px 200px;
     gap: 10px;
-}
-
-.box {
-    padding: 20px;
-    color: red;
-    position: fixed;
 }
 
 .zoom {
