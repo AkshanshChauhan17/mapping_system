@@ -7,32 +7,108 @@
                     "value": "All",
                     "url": "/basic_locations/all",
                     "locations": [{
-                        "x": 100,
-                        "y": 200,
-                        "title": "Building 1",
-                        "description": "This is Building 1 having following branches\n1.Civil Engineering\n2.Electrical Engineering\netc.",
-                        "image_src": "null"
-                    }]
+                            "x": 484,
+                            "y": 520,
+                            "title": "Building 1",
+                            "description": "Building 1 Branches Computer Science Engineering",
+                            "image_src": "null",
+                            "link": "/locations/building1",
+                            "type": 0
+                        },
+                        {
+                            "x": 509,
+                            "y": 257,
+                            "title": "Volleyball Ground",
+                            "description": "Here Students and Faculty play Volleyball",
+                            "image_src": "null",
+                            "link": "/locations/volleyball",
+                            "type": 1
+                        },
+                        {
+                            "x": 505,
+                            "y": 115,
+                            "title": "Building 2",
+                            "description": "Building 2 Branches Civil Engineering Electrical Engineering",
+                            "image_src": "null",
+                            "link": "/locations/building2",
+                            "type": 0
+                        },
+                        {
+                            "x": 721,
+                            "y": 679,
+                            "title": "Parking 1",
+                            "description": "Parking For Faculty Cars and Bikes",
+                            "image_src": "null",
+                            "link": "/locations/parking1",
+                            "type": 2
+                        }
+                    ]
                 },
                 {
                     "type": "button",
                     "value": "Buildings",
-                    "url": "/basic_locations/buildings"
+                    "url": "/basic_locations/buildings",
+                    "locations": [{
+                            "x": 484,
+                            "y": 520,
+                            "title": "Building 1",
+                            "description": "Building 1 Branches Computer Science Engineering",
+                            "image_src": "null",
+                            "link": "/locations/building1",
+                            "type": 0
+                        },
+                        {
+                            "x": 505,
+                            "y": 115,
+                            "title": "Building 2",
+                            "description": "Building 2 Branches Civil Engineering Electrical Engineering",
+                            "image_src": "null",
+                            "link": "/locations/building2",
+                            "type": 0
+                        }
+                    ]
                 },
                 {
                     "type": "button",
                     "value": "Ground",
-                    "url": "/basic_locations/ground"
+                    "url": "/basic_locations/ground",
+                    "locations": [{
+                        "x": 509,
+                        "y": 257,
+                        "title": "Volleyball Ground",
+                        "description": "Here Students and Faculty play Volleyball",
+                        "image_src": "null",
+                        "link": "/locations/volleyball",
+                        "type": 1
+                    }]
                 },
                 {
                     "type": "button",
                     "value": "Parking",
-                    "url": "/basic_locations/parking"
+                    "url": "/basic_locations/parking",
+                    "locations": [{
+                        "x": 721,
+                        "y": 679,
+                        "title": "Parking 1",
+                        "description": "Parking For Faculty Cars and Bikes",
+                        "image_src": "null",
+                        "link": "/locations/parking1",
+                        "type": 2
+                    }]
                 },
                 {
                     "type": "button",
                     "value": "Entrances",
-                    "url": "/basic_locations/entrances"
+                    "url": "/basic_locations/entrances",
+                    "locations": [{
+                        "x": 721,
+                        "y": 679,
+                        "title": "Parking 1",
+                        "description": "Parking For Faculty Cars and Bikes",
+                        "image_src": "null",
+                        "link": "/locations/parking1",
+                        "type": 2
+                    }]
                 }
             ]
         },
@@ -41,32 +117,254 @@
             "content": [{
                     "type": "button",
                     "value": "All",
-                    "url": "/departments/all"
+                    "url": "/departments/all",
+                    "locations": [{
+                            "x": 484,
+                            "y": 520,
+                            "title": "Building 1",
+                            "description": "Building 1 Branches Computer Science Engineering",
+                            "image_src": "null",
+                            "link": "/locations/building1",
+                            "type": 0
+                        },
+                        {
+                            "x": 509,
+                            "y": 257,
+                            "title": "Volleyball Ground",
+                            "description": "Here Students and Faculty play Volleyball",
+                            "image_src": "null",
+                            "link": "/locations/volleyball",
+                            "type": 1
+                        },
+                        {
+                            "x": 505,
+                            "y": 115,
+                            "title": "Building 2",
+                            "description": "Building 2 Branches Civil Engineering Electrical Engineering",
+                            "image_src": "null",
+                            "link": "/locations/building2",
+                            "type": 0
+                        },
+                        {
+                            "x": 721,
+                            "y": 679,
+                            "title": "Parking 1",
+                            "description": "Parking For Faculty Cars and Bikes",
+                            "image_src": "null",
+                            "link": "/locations/parking1",
+                            "type": 2
+                        }
+                    ]
                 },
                 {
                     "type": "button",
                     "value": "Fee",
-                    "url": "/departments/fee"
+                    "url": "/departments/fee",
+                    "locations": [{
+                            "x": 484,
+                            "y": 520,
+                            "title": "Building 1",
+                            "description": "Building 1 Branches Computer Science Engineering",
+                            "image_src": "null",
+                            "link": "/locations/building1",
+                            "type": 0
+                        },
+                        {
+                            "x": 509,
+                            "y": 257,
+                            "title": "Volleyball Ground",
+                            "description": "Here Students and Faculty play Volleyball",
+                            "image_src": "null",
+                            "link": "/locations/volleyball",
+                            "type": 1
+                        },
+                        {
+                            "x": 505,
+                            "y": 115,
+                            "title": "Building 2",
+                            "description": "Building 2 Branches Civil Engineering Electrical Engineering",
+                            "image_src": "null",
+                            "link": "/locations/building2",
+                            "type": 0
+                        },
+                        {
+                            "x": 721,
+                            "y": 679,
+                            "title": "Parking 1",
+                            "description": "Parking For Faculty Cars and Bikes",
+                            "image_src": "null",
+                            "link": "/locations/parking1",
+                            "type": 2
+                        }
+                    ]
                 },
                 {
                     "type": "button",
                     "value": "Books",
-                    "url": "/departments/books"
+                    "url": "/departments/books",
+                    "locations": [{
+                            "x": 484,
+                            "y": 520,
+                            "title": "Building 1",
+                            "description": "Building 1 Branches Computer Science Engineering",
+                            "image_src": "null",
+                            "link": "/locations/building1",
+                            "type": 0
+                        },
+                        {
+                            "x": 509,
+                            "y": 257,
+                            "title": "Volleyball Ground",
+                            "description": "Here Students and Faculty play Volleyball",
+                            "image_src": "null",
+                            "link": "/locations/volleyball",
+                            "type": 1
+                        },
+                        {
+                            "x": 505,
+                            "y": 115,
+                            "title": "Building 2",
+                            "description": "Building 2 Branches Civil Engineering Electrical Engineering",
+                            "image_src": "null",
+                            "link": "/locations/building2",
+                            "type": 0
+                        },
+                        {
+                            "x": 721,
+                            "y": 679,
+                            "title": "Parking 1",
+                            "description": "Parking For Faculty Cars and Bikes",
+                            "image_src": "null",
+                            "link": "/locations/parking1",
+                            "type": 2
+                        }
+                    ]
                 },
                 {
                     "type": "button",
                     "value": "Examination",
-                    "url": "/departments/examination"
+                    "url": "/departments/examination",
+                    "locations": [{
+                            "x": 484,
+                            "y": 520,
+                            "title": "Building 1",
+                            "description": "Building 1 Branches Computer Science Engineering",
+                            "image_src": "null",
+                            "link": "/locations/building1",
+                            "type": 0
+                        },
+                        {
+                            "x": 509,
+                            "y": 257,
+                            "title": "Volleyball Ground",
+                            "description": "Here Students and Faculty play Volleyball",
+                            "image_src": "null",
+                            "link": "/locations/volleyball",
+                            "type": 1
+                        },
+                        {
+                            "x": 505,
+                            "y": 115,
+                            "title": "Building 2",
+                            "description": "Building 2 Branches Civil Engineering Electrical Engineering",
+                            "image_src": "null",
+                            "link": "/locations/building2",
+                            "type": 0
+                        },
+                        {
+                            "x": 721,
+                            "y": 679,
+                            "title": "Parking 1",
+                            "description": "Parking For Faculty Cars and Bikes",
+                            "image_src": "null",
+                            "link": "/locations/parking1",
+                            "type": 2
+                        }
+                    ]
                 },
                 {
                     "type": "button",
                     "value": "Sports",
-                    "url": "/departments/sports"
+                    "url": "/departments/sports",
+                    "locations": [{
+                            "x": 484,
+                            "y": 520,
+                            "title": "Building 1",
+                            "description": "Building 1 Branches Computer Science Engineering",
+                            "image_src": "null",
+                            "link": "/locations/building1",
+                            "type": 0
+                        },
+                        {
+                            "x": 509,
+                            "y": 257,
+                            "title": "Volleyball Ground",
+                            "description": "Here Students and Faculty play Volleyball",
+                            "image_src": "null",
+                            "link": "/locations/volleyball",
+                            "type": 1
+                        },
+                        {
+                            "x": 505,
+                            "y": 115,
+                            "title": "Building 2",
+                            "description": "Building 2 Branches Civil Engineering Electrical Engineering",
+                            "image_src": "null",
+                            "link": "/locations/building2",
+                            "type": 0
+                        },
+                        {
+                            "x": 721,
+                            "y": 679,
+                            "title": "Parking 1",
+                            "description": "Parking For Faculty Cars and Bikes",
+                            "image_src": "null",
+                            "link": "/locations/parking1",
+                            "type": 2
+                        }
+                    ]
                 },
                 {
                     "type": "button",
                     "value": "Placement",
-                    "url": "/departments/placement"
+                    "url": "/departments/placement",
+                    "locations": [{
+                            "x": 484,
+                            "y": 520,
+                            "title": "Building 1",
+                            "description": "Building 1 Branches Computer Science Engineering",
+                            "image_src": "null",
+                            "link": "/locations/building1",
+                            "type": 0
+                        },
+                        {
+                            "x": 509,
+                            "y": 257,
+                            "title": "Volleyball Ground",
+                            "description": "Here Students and Faculty play Volleyball",
+                            "image_src": "null",
+                            "link": "/locations/volleyball",
+                            "type": 1
+                        },
+                        {
+                            "x": 505,
+                            "y": 115,
+                            "title": "Building 2",
+                            "description": "Building 2 Branches Civil Engineering Electrical Engineering",
+                            "image_src": "null",
+                            "link": "/locations/building2",
+                            "type": 0
+                        },
+                        {
+                            "x": 721,
+                            "y": 679,
+                            "title": "Parking 1",
+                            "description": "Parking For Faculty Cars and Bikes",
+                            "image_src": "null",
+                            "link": "/locations/parking1",
+                            "type": 2
+                        }
+                    ]
                 }
             ]
         },
@@ -75,27 +373,212 @@
             "content": [{
                     "type": "button",
                     "value": "All",
-                    "url": "/labs/all"
+                    "url": "/labs/all",
+                    "locations": [{
+                            "x": 484,
+                            "y": 520,
+                            "title": "Building 1",
+                            "description": "Building 1 Branches Computer Science Engineering",
+                            "image_src": "null",
+                            "link": "/locations/building1",
+                            "type": 0
+                        },
+                        {
+                            "x": 509,
+                            "y": 257,
+                            "title": "Volleyball Ground",
+                            "description": "Here Students and Faculty play Volleyball",
+                            "image_src": "null",
+                            "link": "/locations/volleyball",
+                            "type": 1
+                        },
+                        {
+                            "x": 505,
+                            "y": 115,
+                            "title": "Building 2",
+                            "description": "Building 2 Branches Civil Engineering Electrical Engineering",
+                            "image_src": "null",
+                            "link": "/locations/building2",
+                            "type": 0
+                        },
+                        {
+                            "x": 721,
+                            "y": 679,
+                            "title": "Parking 1",
+                            "description": "Parking For Faculty Cars and Bikes",
+                            "image_src": "null",
+                            "link": "/locations/parking1",
+                            "type": 2
+                        }
+                    ]
                 },
                 {
                     "type": "button",
                     "value": "Computer",
-                    "url": "/labs/computer"
+                    "url": "/labs/computer",
+                    "locations": [{
+                            "x": 484,
+                            "y": 520,
+                            "title": "Building 1",
+                            "description": "Building 1 Branches Computer Science Engineering",
+                            "image_src": "null",
+                            "link": "/locations/building1",
+                            "type": 0
+                        },
+                        {
+                            "x": 509,
+                            "y": 257,
+                            "title": "Volleyball Ground",
+                            "description": "Here Students and Faculty play Volleyball",
+                            "image_src": "null",
+                            "link": "/locations/volleyball",
+                            "type": 1
+                        },
+                        {
+                            "x": 505,
+                            "y": 115,
+                            "title": "Building 2",
+                            "description": "Building 2 Branches Civil Engineering Electrical Engineering",
+                            "image_src": "null",
+                            "link": "/locations/building2",
+                            "type": 0
+                        },
+                        {
+                            "x": 721,
+                            "y": 679,
+                            "title": "Parking 1",
+                            "description": "Parking For Faculty Cars and Bikes",
+                            "image_src": "null",
+                            "link": "/locations/parking1",
+                            "type": 2
+                        }
+                    ]
                 },
                 {
                     "type": "button",
                     "value": "Electrical",
-                    "url": "/labs/electrical"
+                    "url": "/labs/electrical",
+                    "locations": [{
+                            "x": 484,
+                            "y": 520,
+                            "title": "Building 1",
+                            "description": "Building 1 Branches Computer Science Engineering",
+                            "image_src": "null",
+                            "link": "/locations/building1",
+                            "type": 0
+                        },
+                        {
+                            "x": 509,
+                            "y": 257,
+                            "title": "Volleyball Ground",
+                            "description": "Here Students and Faculty play Volleyball",
+                            "image_src": "null",
+                            "link": "/locations/volleyball",
+                            "type": 1
+                        },
+                        {
+                            "x": 505,
+                            "y": 115,
+                            "title": "Building 2",
+                            "description": "Building 2 Branches Civil Engineering Electrical Engineering",
+                            "image_src": "null",
+                            "link": "/locations/building2",
+                            "type": 0
+                        },
+                        {
+                            "x": 721,
+                            "y": 679,
+                            "title": "Parking 1",
+                            "description": "Parking For Faculty Cars and Bikes",
+                            "image_src": "null",
+                            "link": "/locations/parking1",
+                            "type": 2
+                        }
+                    ]
                 },
                 {
                     "type": "button",
                     "value": "Electronics",
-                    "url": "/labs/electronics"
+                    "url": "/labs/electronics",
+                    "locations": [{
+                            "x": 484,
+                            "y": 520,
+                            "title": "Building 1",
+                            "description": "Building 1 Branches Computer Science Engineering",
+                            "image_src": "null",
+                            "link": "/locations/building1",
+                            "type": 0
+                        },
+                        {
+                            "x": 509,
+                            "y": 257,
+                            "title": "Volleyball Ground",
+                            "description": "Here Students and Faculty play Volleyball",
+                            "image_src": "null",
+                            "link": "/locations/volleyball",
+                            "type": 1
+                        },
+                        {
+                            "x": 505,
+                            "y": 115,
+                            "title": "Building 2",
+                            "description": "Building 2 Branches Civil Engineering Electrical Engineering",
+                            "image_src": "null",
+                            "link": "/locations/building2",
+                            "type": 0
+                        },
+                        {
+                            "x": 721,
+                            "y": 679,
+                            "title": "Parking 1",
+                            "description": "Parking For Faculty Cars and Bikes",
+                            "image_src": "null",
+                            "link": "/locations/parking1",
+                            "type": 2
+                        }
+                    ]
                 },
                 {
                     "type": "button",
                     "value": "Mechanical",
-                    "url": "/labs/mechanical"
+                    "url": "/labs/mechanical",
+                    "locations": [{
+                            "x": 484,
+                            "y": 520,
+                            "title": "Building 1",
+                            "description": "Building 1 Branches Computer Science Engineering",
+                            "image_src": "null",
+                            "link": "/locations/building1",
+                            "type": 0
+                        },
+                        {
+                            "x": 509,
+                            "y": 257,
+                            "title": "Volleyball Ground",
+                            "description": "Here Students and Faculty play Volleyball",
+                            "image_src": "null",
+                            "link": "/locations/volleyball",
+                            "type": 1
+                        },
+                        {
+                            "x": 505,
+                            "y": 115,
+                            "title": "Building 2",
+                            "description": "Building 2 Branches Civil Engineering Electrical Engineering",
+                            "image_src": "null",
+                            "link": "/locations/building2",
+                            "type": 0
+                        },
+                        {
+                            "x": 721,
+                            "y": 679,
+                            "title": "Parking 1",
+                            "description": "Parking For Faculty Cars and Bikes",
+                            "image_src": "null",
+                            "link": "/locations/parking1",
+                            "type": 2
+                        }
+                    ]
                 }
             ]
         },
@@ -104,22 +587,170 @@
             "content": [{
                     "type": "button",
                     "value": "All",
-                    "url": "/miscellaneous/all"
+                    "url": "/miscellaneous/all",
+                    "locations": [{
+                            "x": 484,
+                            "y": 520,
+                            "title": "Building 1",
+                            "description": "Building 1 Branches Computer Science Engineering",
+                            "image_src": "null",
+                            "link": "/locations/building1",
+                            "type": 0
+                        },
+                        {
+                            "x": 509,
+                            "y": 257,
+                            "title": "Volleyball Ground",
+                            "description": "Here Students and Faculty play Volleyball",
+                            "image_src": "null",
+                            "link": "/locations/volleyball",
+                            "type": 1
+                        },
+                        {
+                            "x": 505,
+                            "y": 115,
+                            "title": "Building 2",
+                            "description": "Building 2 Branches Civil Engineering Electrical Engineering",
+                            "image_src": "null",
+                            "link": "/locations/building2",
+                            "type": 0
+                        },
+                        {
+                            "x": 721,
+                            "y": 679,
+                            "title": "Parking 1",
+                            "description": "Parking For Faculty Cars and Bikes",
+                            "image_src": "null",
+                            "link": "/locations/parking1",
+                            "type": 2
+                        }
+                    ]
                 },
                 {
                     "type": "button",
                     "value": "Canteen",
-                    "url": "/miscellaneous/canteen"
+                    "url": "/miscellaneous/canteen",
+                    "locations": [{
+                            "x": 484,
+                            "y": 520,
+                            "title": "Building 1",
+                            "description": "Building 1 Branches Computer Science Engineering",
+                            "image_src": "null",
+                            "link": "/locations/building1",
+                            "type": 0
+                        },
+                        {
+                            "x": 509,
+                            "y": 257,
+                            "title": "Volleyball Ground",
+                            "description": "Here Students and Faculty play Volleyball",
+                            "image_src": "null",
+                            "link": "/locations/volleyball",
+                            "type": 1
+                        },
+                        {
+                            "x": 505,
+                            "y": 115,
+                            "title": "Building 2",
+                            "description": "Building 2 Branches Civil Engineering Electrical Engineering",
+                            "image_src": "null",
+                            "link": "/locations/building2",
+                            "type": 0
+                        },
+                        {
+                            "x": 721,
+                            "y": 679,
+                            "title": "Parking 1",
+                            "description": "Parking For Faculty Cars and Bikes",
+                            "image_src": "null",
+                            "link": "/locations/parking1",
+                            "type": 2
+                        }
+                    ]
                 },
                 {
                     "type": "button",
                     "value": "Gym",
-                    "url": "/miscellaneous/gym"
+                    "url": "/miscellaneous/gym",
+                    "locations": [{
+                            "x": 484,
+                            "y": 520,
+                            "title": "Building 1",
+                            "description": "Building 1 Branches Computer Science Engineering",
+                            "image_src": "null",
+                            "link": "/locations/building1",
+                            "type": 0
+                        },
+                        {
+                            "x": 509,
+                            "y": 257,
+                            "title": "Volleyball Ground",
+                            "description": "Here Students and Faculty play Volleyball",
+                            "image_src": "null",
+                            "link": "/locations/volleyball",
+                            "type": 1
+                        },
+                        {
+                            "x": 505,
+                            "y": 115,
+                            "title": "Building 2",
+                            "description": "Building 2 Branches Civil Engineering Electrical Engineering",
+                            "image_src": "null",
+                            "link": "/locations/building2",
+                            "type": 0
+                        },
+                        {
+                            "x": 721,
+                            "y": 679,
+                            "title": "Parking 1",
+                            "description": "Parking For Faculty Cars and Bikes",
+                            "image_src": "null",
+                            "link": "/locations/parking1",
+                            "type": 2
+                        }
+                    ]
                 },
                 {
                     "type": "button",
                     "value": "Water",
-                    "url": "/miscellaneous/water"
+                    "url": "/miscellaneous/water",
+                    "locations": [{
+                            "x": 484,
+                            "y": 520,
+                            "title": "Building 1",
+                            "description": "Building 1 Branches Computer Science Engineering",
+                            "image_src": "null",
+                            "link": "/locations/building1",
+                            "type": 0
+                        },
+                        {
+                            "x": 509,
+                            "y": 257,
+                            "title": "Volleyball Ground",
+                            "description": "Here Students and Faculty play Volleyball",
+                            "image_src": "null",
+                            "link": "/locations/volleyball",
+                            "type": 1
+                        },
+                        {
+                            "x": 505,
+                            "y": 115,
+                            "title": "Building 2",
+                            "description": "Building 2 Branches Civil Engineering Electrical Engineering",
+                            "image_src": "null",
+                            "link": "/locations/building2",
+                            "type": 0
+                        },
+                        {
+                            "x": 721,
+                            "y": 679,
+                            "title": "Parking 1",
+                            "description": "Parking For Faculty Cars and Bikes",
+                            "image_src": "null",
+                            "link": "/locations/parking1",
+                            "type": 2
+                        }
+                    ]
                 }
             ]
         }

@@ -44,7 +44,7 @@ button:hover {
 
 .button-active {
     color: white;
-    background-color: rgb(0, 124, 247)
+    background-color: rgb(0, 124, 247);
 }
 
 .button-inactive {
@@ -70,6 +70,12 @@ button:hover {
     flex-wrap: wrap;
 }
 
+.navigation-links button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
 .itg-map {
     height: 100vh;
     width: 1000px;
@@ -80,7 +86,6 @@ button:hover {
     align-items: center;
     justify-content: center;
     transition-duration: 0.3s;
-    cursor: grab;
     overflow: scroll;
     position: relative;
 }
@@ -91,6 +96,61 @@ button:hover {
 
 .grabbing {
     cursor: grabbing;
+}
+
+.location-group {
+    cursor: context-menu;
+    padding: 10px;
+}
+
+.location-group {
+    outline-offset: 10px;
+    transition-duration: 0.3s;
+}
+
+.location-group text {
+    cursor: pointer;
+}
+
+.location-group circle {
+    transition-duration: 0.3s;
+}
+
+.location-group:hover > circle {
+    r: 20px;
+}
+
+.location-group rect {
+    transition-duration: 0.3s;
+}
+
+.location-group:hover > rect {
+    height: 30px;
+    transform: translateY(-5px);
+}
+
+.location-description {
+
+}
+
+.location-description a {
+    background-color: rgb(0, 124, 247);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    margin: 10px 0px;
+    bottom: -10px;
+    width: 170px;
+    position: absolute;
+}
+
+.location-description a:hover {
+    background-color: #0054f1;
 }
 
 .layer-bg {
