@@ -1,0 +1,33 @@
+.main-map {
+    width: 1000px;
+    height: 100vh;
+    overflow: scroll;
+    .take-input {
+        position: absolute;
+        z-index: 100;
+        display: grid;
+        input {
+            padding: 10px 20px;
+        }
+        button {
+            padding: 10px 20px;
+        }
+    }
+    .image-layer {
+        width: 1000px;
+        height: 1000px;
+        rotate: 90deg;
+        position: absolute;
+    }
+    .svg-layer {
+        width: 1000px;
+        height: 1000px;
+        position: absolute;
+        z-index: 20;
+        cursor: crosshair;
+    }
+}
+
+.main-map::-webkit-scrollbar {
+    display: none;
+}
